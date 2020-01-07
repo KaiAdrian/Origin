@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[atomGithub]
+	historySha = 18e47da9c7e7d50a68c62a53ebee35b53a6af1d0
