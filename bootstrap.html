@@ -34,25 +34,32 @@
   position: sticky;
   width: auto;
   background:#191919;
-  text-align: center;
+  text-align:center;
   color: white;
 }
- .div1:hover,.textuppercase{
-  height:12vw;
-  font-size:250%;
+
+.podcrta{                   /*padčrtan tekst*/
+ text-decoration:none;
 }
 
+.div1:hover,.podcrta:hover{
+  height: 120%;
+  font-style: oblique;
+  font-size:200%;
+  text-shadow:red 2px 5px;
 
 }
 
-
+.podcrta:hover{
+  text-decoration:underline;
+}
 
 </style>
 <body>
 
 
 <div class="container div1">
- <h1 class="text-uppercase">My First Bootstrap Page</h1>
+ <h1 class="text-uppercase">Moja prva</h1><h1 class="podcrta text-uppercase"><b>"bootstrap"</b></h1><h1 class="text-uppercase">stran</h1>
  <p>This is some text.</p>
 </div>
 
